@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/extras/smallLogo.png" rel="icon">
+    <title>Suzanne Mehler</title> 
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0a4f8310c8.js" crossorigin="anonymous"></script> <!-- Website where icons came from -->
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="extras/logoBig.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header"> Home </a></li>
+                    <li><a href="#about"> About </a></li>
+                    <li><a href="#services"> Services </a></li> 
+                    <li><a href="#portfolio"> Projects </a></li>
+                    <li><a href="#contact"> Contact </a></li>
+                    <i class="fas fa-times" onclick="closeMenu()"></i> 
+                </ul>
+                <i class="fas fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class = "header-text"> 
+                <p>Director Sales & Marketing, North America for Lingshan Trading Company Ltd</p>
+                <h1>Hi, I'm <span>Suzanne</span> Mehler</h1> 
+            </div>
+        </div>
+    </div>
+<!-- About me Section --> 
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="extras/aboutMePic.png"> 
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p><br></p>
+                <p>LSTC are a Well-Established and Market Leading China Based Design & Sourcing Company specialising in the Source, 
+                    Design, Manufacture & Supply of a large variety of retail quality products to include bespoke clothing, bags, 
+                    accessories and apparel. We produce a large variety of bespoke designed Leather/Nylon/Polyester/PU/PVC/Paper 
+                    bags and cases for retail & promotional use, Presentation Boxes and Card Packaging, along with a host of 
+                    accessories such as Pro Salon Products like Scissors & Gowns to Dryers & Trimmers and Promotional Goods to 
+                    include bespoke Jewelry, Bracelets, Bath Ducks, Fridge Magnets to name a few.....</p>
+                <br>
+                <p>In fact, over the past 17 years we have worked closely with our global clients to produce a large variety of 
+                    uniquely designed products for the retail & promotional industry. With offices in Shanghai, Ningbo, Xiamen, 
+                    Shenzhen and Hong Kong, China we have been able to build long term successful relationships with an extensive 
+                    list of secure and reputable Suppliers and Manufacturers throughout the Globe including China, Taiwan, Japan, 
+                    USA, EU and India. Due to this, we are able to offer high quality items at the lowest competitive prices. With 
+                    Sales Offices operating in Newark, NJ, USA and London, UK, we have a long list of clients in the corporate, 
+                    retail and promotional sector throughout Europe and the USA.</p>
+                <br> 
+                <p>LSTC is a Global Company that can offer Global Supply of Uniquely Designed Products ... 
+                    Contact Us with your Latest Project…..We are Glad to Assist!</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p> 
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Marketing</span><br>
+                            <p> - I have vast experience in online marketing, social media and traditional</p>
+                        </li>
+                        <div></div>
+                        <li><span>New Product Development</span><br>
+                            <p> - I have experience working with clients directly to bring their ideas to reality</p>
+                        </li>
+                        <li><span>Sales</span><br>
+                            <p> - I have a sucessful track reccord with sales and account management </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Director Sales & Marketing, North America</span><br>Aug 2013 - Present</li>
+                        <li><span>Head of Marketing & Sales, Automotive Division</span><br>Jan 2002 - May 2005</li>
+                        <li><span>Head of Marketing for Autobytel.co.uk, subsidiary of Inchcape Plc</span><br>Mar 1998 - Jan 2002</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Bournemouth University</span><br> - Degree in Advertising, Media, and Marketing BA Honors</li>
+                        <li><span>Millfield School, Somerset, England</span><br> - High School graduate</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------- Services -------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-connectdevelop"></i>
+                <h2>New Product Development</h2>
+               <!-- <a href="#">Learn more <i class="fa-solid fa-arrow-up-right-from-square arrow-icon"></i></a> -->
+            </div>
+            <div>
+                <i class="fa-solid fa-gift"></i>
+                <h2>Promotions</h2>
+                <p class="description"> - Gift with purchase, POS products, and B2B promotions</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-barcode"></i>
+                <h2>Product Sku</h2>
+                <p class="description"> - Development of client product skus</p>
+            </div>
+        </div>
+        <a href="#" class="button">See more</a>
+    </div>
+</div>
+<!------- Projects -------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="extras/product1Cropped.png">
+                <div class="layer">
+                    <h3>Capes, Gowns, and Aprons</h3>
+                    <p><br></p>
+                    <p class="description">Produced by Lingshan Trading Company Ltd</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="extras/product2Cropped.png">
+                <div class="layer">
+                    <h3>Moulded Products</h3>
+                    <p><br></p>
+                    <p class="description">Produced by Lingshan Trading Company Ltd</p> 
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="extras/product3Cropped.png">
+                <div class="layer">
+                    <h3>Microfiber Towls</h3> 
+                    <p><br></p>
+                    <p class="description">Produced by Lingshan Trading Company Ltd</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> 
+        </div>
+        <a href="#" class="button">See more</a>
+    </div>
+</div>
+<!------- Contact Me -------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> sm@ling-shan.com</p>
+                <p><i class="fa-solid fa-phone"></i> 201-401-9665</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/suzanne-mehler-2638a913/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/suzanne_uk/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="button btn2">Submit</button>
+                </form>
+                <span id="message"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p class="copyright-color">Copyright &copy Michael Mehler</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){  
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        } 
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab"); 
+        }
+        event.currentTarget.classList.add("active-link"); 
+        document.getElementById(tabname).classList.add("active-tab"); 
+    } 
+</script>
+
+<script> 
+var sideMenu = document.getElementById("sidemenu");
+
+function openMenu(){
+    sideMenu.style.right = "0";
+}
+
+function closeMenu(){
+    sideMenu.style.right = "-200px";
+}
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbygU30YVO0S8C9w6pqpTYcxEd8wt89taVKOfVCoj-2_6wvnMTHmsxnPVR7YCYwClWt-EA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const message = document.getElementById("message");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            message.innerHTML = "Message sent sucessfully!";
+            setTimeout(function(){message.innerHTML = "";}, 5000);
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html> 
